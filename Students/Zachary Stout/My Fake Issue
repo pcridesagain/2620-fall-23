@@ -1,0 +1,4 @@
+If (thisAssignment === death)
+{
+Cry = true
+}
