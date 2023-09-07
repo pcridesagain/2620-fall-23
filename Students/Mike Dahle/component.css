@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    border-style: none;
+    border-radius: 48px;
+}
+
+button.lightest {
+    background-color: #e7e7ff;
+    color: #6b4eff;
+}
+
+button.base {
+    background-color: #6b4eff;
+    color: #ffffff;
+}
+
+div {
+    margin: 1rem 2vw;
+}
+
+div.btn-lg button {
+    padding: 1rem 3.25rem;
+}
+
+div.btn-sm button {
+    padding: .5rem 1rem;
+}
+div.btn-md button {
+    padding: 1rem 2rem;
+}
