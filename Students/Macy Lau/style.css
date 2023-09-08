@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    background-color: black;
+}
+
+.component {
+    margin: 20px;
+} 
+
+
+
+.input {
+    width: 250px;
+    height: 20px;
+    padding: 8px 15px;
+    margin-top: 5px;
+    border-radius: 8px;
+    background: none;
+    border: 1px solid #303437;
+}
+
+.blue input { border-color: #6B4EFF; }
+.blue ::placeholder {color: white;}
+.red input { border-color: #FF5247; }
+.red ::placeholder {color: white;}
+.white ::placeholder {color: white;}
+.grey input {background: #202325; border: none;}
+.grey ::placeholder {color: #404446;}
+
+
