@@ -1,0 +1,12 @@
+body{
+    max-width: 500px;
+    margin: auto;
+}
+div{
+    background-color: black;
+    width: 20em;
+    text-size-adjust: white, 20px;
+    padding: 1rem;
+    color: white;
+
+}
