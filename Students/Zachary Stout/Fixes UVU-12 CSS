@@ -5,7 +5,7 @@
 
 form {
   margin: 0 auto;
-  width: 400px;
+  width: 300px;
   padding: 1em;
   border: 2px solid #ccc;
   border-radius: 1em;
@@ -14,4 +14,14 @@ form {
 input[type="radio"] {
   padding: 10px;
   margin: 10px;
+}
+
+#form2 {
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
 }
