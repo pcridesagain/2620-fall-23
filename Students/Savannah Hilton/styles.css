@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+button{
+    color:rgb(224, 224, 224);
+    padding: .2rem .5rem;
+    margin: .7rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.smallGrayedChip button{
+    background-color: rgb(66, 66, 66);
+    border: none;
+    height: 2rem;
+}
+.smallOutlineChip button{
+    border: .01rem solid rgb(224, 224, 224);
+    background-color: transparent;
+    height: 2rem;
+}
+
+.bigGrayedChip button{
+    background-color: rgb(66, 66, 66);
+    border: none;
+    height: 2.5rem;
+    width: 20rem;
+}
+
+/* button .plusFront{
+    justify-self: flex-start;
+}
+
+button .plusEnd{
+    justify-self: flex-end;
+}
+.chipText{
+    justify-self: center;
+} */
+p{
+    margin: 0;
+}
+
+.bigOutlineChip button{
+    border: .01rem solid rgb(224, 224, 224);
+    background-color: transparent;
+    height: 2.5rem;
+    width: 20rem;
+}
