@@ -20,5 +20,18 @@
       <input type="radio" id="Reportthis" name="Action" value="Reportthis" />
       <label for="Reportthis">Report this</label>
     </form>
+    <form id="form2">
+      <p id="Label">Select Action</p>
+      <input type="radio" id="Download" name="Action" value="HTML" />
+      <label for="Download">Download</label><br />
+      <input type="radio" id="Savetofav" name="Action" value="Savetofav" />
+      <label for="Savetofav">Save to favorites</label><br />
+      <input type="radio" id="Comment" name="Action" value="Comment" />
+      <label for="Comment">Comment</label><br />
+      <input type="radio" id="Share" name="Action" value="Share" />
+      <label for="Share">Share</label><br />
+      <input type="radio" id="Reportthis" name="Action" value="Reportthis" />
+      <label for="Reportthis">Report this</label>
+    </form>
   </body>
 </html>
