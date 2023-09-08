@@ -1,0 +1,44 @@
+.toggle {
+    display: inline-block;
+    width: 56px;
+    height: 32px;
+    background-color: #6C7072;
+    border-radius: 32px;
+    position: relative;
+    overflow: hidden;
+}
+.toggle2 {
+    display: inline-block;
+    width: 56px;
+    height: 32px;
+    border-radius: 32px;
+    position: relative;
+    overflow: hidden;
+    background-color: #6B4EFF;
+}
+.toggle input[type="checkbox"] {
+    display: none;
+}
+.toggle-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 34px;
+
+   
+}
+.toggle-label:before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 100px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+   
+    
+}
+
+
