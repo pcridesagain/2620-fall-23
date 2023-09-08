@@ -19,6 +19,7 @@
       <label for="Share">Share</label><br />
       <input type="radio" id="Reportthis" name="Action" value="Reportthis" />
       <label for="Reportthis">Report this</label>
+      <p>cancel</p>
     </form>
     <form id="form2">
       <p id="Label">Select Action</p>
@@ -32,6 +33,7 @@
       <label for="Share">Share</label><br />
       <input type="radio" id="Reportthis" name="Action" value="Reportthis" />
       <label for="Reportthis">Report this</label>
+      <p>cancel</p>
     </form>
   </body>
 </html>
