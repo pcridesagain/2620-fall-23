@@ -1,0 +1,41 @@
+/* Style for the tab bar container */
+.tab-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    width: 375px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+/* Style for the unfilled circles */
+.circle {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 1px solid #ffffff; /* Border to create the unfilled circle effect */
+    border-radius: 50%; 
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 80px; 
+    flex-direction: row;
+    
+}
+
+.circle-title {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-top: 6px;
+    color: white;
+   
+    
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
