@@ -1,0 +1,53 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+section {
+    height: 100vh;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #979C9E;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.tabsGroup1 {
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.tabsGroup2 {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.tabsGroup3 {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+
+}
+
+h2 {
+    cursor: pointer;
+    color: #979C9E;
+}
+
+#active {
+    color: #6B4EFF;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #6B4EFF;    
+
+}
