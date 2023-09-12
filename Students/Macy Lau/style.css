@@ -1,3 +1,5 @@
+HTML/input-component-macy
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -34,5 +36,3 @@ body {
 .white ::placeholder {color: white;}
 .grey input {background: #202325; border: none;}
 .grey ::placeholder {color: #404446;}
-
-
