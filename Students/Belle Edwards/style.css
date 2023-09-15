@@ -1,0 +1,28 @@
+body {
+  width: 375px;
+  height: 280px;
+}
+.containerDiv {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 280px;
+}
+.calendarDiv {
+  font-family: "inter";
+  display: flex;
+  width: 375px;
+  height: 280px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+tr.weekdayNames {
+  opacity: 40%;
+}
+tr {
+  height: 8px;
+}
+td {
+  padding: 0px 12px;
+}
