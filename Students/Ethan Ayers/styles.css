@@ -1,0 +1,28 @@
+.wrapper{
+    background-color: black;
+    width: 50vw;
+    padding: 2rem;
+    margin: 2rem;
+}
+.bars{
+    display: flex;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 2rem;
+    align-items: center;
+}
+
+.active{
+    background-color: rgb(114, 114, 114);
+    padding: .75rem 3rem;
+    border-radius: 10px;
+    height: 2vh;
+}
+
+.inactive{
+    padding: 1rem;
+}
+
+
