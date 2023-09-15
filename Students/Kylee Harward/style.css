@@ -1,0 +1,90 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+h1 {
+  padding: 1rem;
+  text-align: center;
+}
+div {
+  width: 327px;
+  padding: 1.2rem;
+  background-color: #6b4eff;
+  margin: 2rem;
+}
+
+div.rounded {
+  border-radius: 8px;
+}
+
+.caption {
+  color: #c6c4ff;
+}
+
+i {
+  float: left;
+  padding-right: 1rem;
+  padding-top: 0.05rem;
+}
+
+#circlecap .caption {
+  padding-left: 2rem;
+}
+
+#circlecap i {
+  padding-top: 0.6rem;
+}
+
+.action {
+  display: flex;
+}
+
+.txt {
+  align-self: center;
+  padding-left: 11rem;
+}
+
+.txt2 {
+  align-self: center;
+  padding-left: 9rem;
+}
+
+#combo i {
+  padding-top: 0.6rem;
+}
+
+.circleRight i {
+  float: right;
+  margin-right: -1rem;
+}
+
+#circlecapR i {
+  padding-top: 0.6rem;
+}
+
+#rightCir {
+  align-self: center;
+  padding-left: 11rem;
+}
+
+#mainGrid {
+  display: flex;
+}
