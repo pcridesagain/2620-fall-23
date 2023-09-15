@@ -1,0 +1,21 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+    
+  }
+
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+  }
+
+
+  .menu li a {
+    color: #333;
+    text-decoration: none;
+  }
