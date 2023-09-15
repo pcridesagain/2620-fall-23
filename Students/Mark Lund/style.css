@@ -1,0 +1,122 @@
+.box {
+  position: relative;
+  width: 846px;
+  height: 164px;
+}
+
+.box .controls-sliders {
+  position: fixed;
+  width: 846px;
+  height: 164px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: var(--primarybase);
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 50.04%,
+    rgb(13, 14, 15) 50.04%,
+    rgb(13, 14, 15) 100%
+  );
+}
+
+.box .mode-light-type {
+  top: 48px;
+  position: absolute;
+  width: 327px;
+  height: 24px;
+  left: 48px;
+}
+
+.box .overlap-group {
+  position: relative;
+  height: 24px;
+}
+
+.box .track {
+  background-color: var(--skylight);
+  position: absolute;
+  width: 327px;
+  height: 4px;
+  top: 10px;
+  left: 0;
+  border-radius: 100px;
+}
+
+.box .value {
+  width: 30px;
+  left: 0;
+  position: absolute;
+  height: 4px;
+  top: 10px;
+  background-color: var(--primarybase);
+  border-radius: 100px;
+}
+
+.box .div {
+  left: 18px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  background-color: var(--primarybase);
+  border-radius: 12px;
+}
+
+.box .overlap-wrapper {
+  top: 92px;
+  position: absolute;
+  width: 327px;
+  height: 24px;
+  left: 48px;
+}
+
+.box .value-2 {
+  width: 133px;
+  left: 30px;
+  position: absolute;
+  height: 4px;
+  top: 10px;
+  background-color: var(--primarybase);
+  border-radius: 100px;
+}
+
+.box .knob-max {
+  left: 151px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  background-color: var(--primarybase);
+  border-radius: 12px;
+}
+
+.box .mode-dark-type {
+  top: 48px;
+  position: absolute;
+  width: 327px;
+  height: 24px;
+  left: 471px;
+}
+
+.box .track-2 {
+  background-color: var(--skywhite);
+  opacity: 0.2;
+  position: absolute;
+  width: 327px;
+  height: 4px;
+  top: 10px;
+  left: 0;
+  border-radius: 100px;
+}
+
+.box .mode-dark-type-range {
+  top: 92px;
+  position: absolute;
+  width: 327px;
+  height: 24px;
+  left: 471px;
+}
