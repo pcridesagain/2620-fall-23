@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!--    <button class="w-60 border border-black pt-2 pb-2 hover:bg-blue-200 hover:text-yellow-500 rounded-md">Click Me!</button>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <input type="text" class="border border-black mr-2 rounded-md hover:bg-gray-100">Submit!
+    -->
+
+    <div id="stepper1" class="w-40 h-20 bg-black ">
+        <div class="flex justify-center items-center h-full">
+            <div class="text-white w-16 h-10 border-2 border-white text-center  rounded-l-3xl border-r-0 flex justify-center items-center">
+                <p class="">-</p>
+            </div>
+            <div class="text-blue-500 w-16 h-10 border-2 border-white text-center rounded-r-3xl flex justify-center items-center">
+                <p class="">+</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="stepper2" class="w-40 h-20 bg-black mt-5">
+      <div class="flex justify-center items-center h-full">
+        <div class="text-white w-10 h-8 border-2 border-white text-center  rounded-l-3xl border-r-0 flex justify-center items-center">
+            <p class="">-</p>
+        </div>
+        <div class="text-blue-500 w-10 h-8 border-2 border-white text-center rounded-r-3xl flex justify-center items-center">
+            <p class="">+</p>
+        </div>
+    </div>
+    </div>
+
+    <div id="stepper3" class= "w-40 h-20 bg-black mt-5">
+      <div class="flex justify-center items-center h-full gap-5">
+        <p class="text-gray-600">ㅡ</p>
+        <p class="text-white">0</p>
+        <p class="text-blue-500 text-2xl">+</p>
+      </div>
+    </div>
+
+    <div id="stepper4" class= "w-40 h-20 bg-black mt-5">
+      <div class="flex justify-center items-center h-full gap-2">
+        <p class="text-gray-600 text-xs">ㅡ</p>
+        <p class="text-white text-xs">0</p>
+        <p class="text-blue-500 text-2xl text-xm">+</p>
+      </div>
+    </div>
+
+
+</body>
+</html>
