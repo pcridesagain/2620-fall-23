@@ -1,2 +1,2 @@
-.DS_Store
-Students/.DS_Store
+*.DS_Store
+*Students/.DS_Store
