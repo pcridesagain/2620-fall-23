@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Buttons/Icons in dark mode for DWDD 2620" />
+    <meta name="author" content="Al Baker" />
+
+    <!-- STYLE SHEETS -->
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              darkBlue: '#5538EE',
+              primaryBlue: '#6B4EFF',
+              lightBlue: '#9990FF',
+              lighterBlue: '#C6C4FF',
+              darkGray: '#303437',
+              lightGray: '#6C7072',
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://kit.fontawesome.com/369097350a.js" crossorigin="anonymous"></script>
+
+    <title>Buttons - With Tailwind</title>
+  </head>
+  <body class="bg-black">
+    <button class="rounded-full bg-primaryBlue block m-2 h-12 w-12 active:bg-darkBlue disabled:bg-darkGray group">
+      <i class="fa-regular fa-circle text-lg text-white group-disabled:text-lightGray"></i>
+    </button>
+    <button class="rounded-full bg-lighterBlue block m-2 h-12 w-12 active:bg-lightBlue disabled:bg-darkGray group">
+      <i class="fa-regular fa-circle text-lg text-darkBlue group-disabled:text-lightGray"></i>
+    </button>
+    <button class="rounded-full border-2 border-lightBlue block m-2 h-12 w-12 active:border-primaryBlue disabled:border-darkGray group">
+      <i class="fa-regular fa-circle text-lg text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"></i>
+    </button>
+    <button class="rounded-full block m-2 h-12 w-12 active:bg-lightBlue group">
+      <i class="fa-regular fa-circle text-lg text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"></i>
+    </button>
+    
+    <button class="rounded-full bg-primaryBlue block m-2 h-8 w-8 active:bg-darkBlue disabled:bg-darkGray group">
+      <i class="fa-regular fa-circle fa-xs text-white group-disabled:text-lightGray"></i>
+    </button>
+    <button class="rounded-full bg-lighterBlue block m-2 h-8 w-8 active:bg-lightBlue disabled:bg-darkGray group">
+      <i class="fa-regular fa-circle fa-xs text-darkBlue group-disabled:text-lightGray"></i>
+    </button>
+    <button class="rounded-full border-2 border-lightBlue block m-2 h-8 w-8 active:border-primaryBlue disabled:border-darkGray group">
+      <i class="fa-regular fa-circle fa-xs text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"></i>
+    </button>
+    <button class="rounded-full block m-2 h-8 w-8 active:bg-lightBlue group">
+      <i class="fa-regular fa-circle fa-xs text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"></i>
+    </button>    
+  </body>
+</html>
