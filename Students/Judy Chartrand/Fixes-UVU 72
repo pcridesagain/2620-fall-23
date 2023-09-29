@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tab Bars with Empty Circle Buttonss</title>
+
+
+</head>
+
+<body>
+    <div class="bg-zinc-800 outline-zinc-900 p-3">
+        <div class="container mx-auto flex justify-center items-center">
+            <!-- Tab 1 and right circle-->
+            <div class="flex flex-col items-center mr-10">
+                
+                    <span class="w-6 h-6 transparent border-2 border-indigo-400 rounded-full mx-auto"></span>
+                
+                    <p class="text-indigo-400">title</p>
+
+            </div>
+            <!--Tab 1 and left circle-->
+            <div class="flex flex-col items-center ml-10">
+                
+                <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+            
+                <p class="text-gray-500">title</p>
+
+            </div>
+
+            
+            </div>
+        </div>
+
+    </div>
+
+
+<div>
+    <div class="bg-neutral-950"></div>
+    <div class="container mx-auto flex justify-center items-center mt-6">
+        </div>
+
+    <div class="bg-zinc-800 p-3 ">
+        <div class="container mx-auto flex justify-center items-center mt-4">
+            <!-- Tab 2 and right circle-->
+            <div class="flex flex-col items-center mr-10">
+                
+                    <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+                
+                    <p class="text-gray-500">title</p>
+
+            </div>
+            <!--Tab 2 and middle circle-->
+            <div class="flex flex-col items-center ml">
+                
+                <span class="w-6 h-6 transparent border-2 border-indigo-400 rounded-full mx-auto"></span>
+            
+                <p class="text-indigo-400">title</p>
+
+            </div>
+            <!--Tab 2 and left circle-->
+            <div class="flex flex-col items-center ml-10">
+                
+                <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+            
+                <p class="text-gray-500">title</p>
+
+            </div>
+
+        
+
+            
+
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="bg-neutral-950"></div>
+        <div class="container mx-auto flex justify-center items-center mt-6">
+            </div>
+    
+        <div class="bg-zinc-800 p-3 ">
+            <div class="container mx-auto flex justify-center items-center mt-4">
+                <!-- Tab 3 and right circle-->
+                <div class="flex flex-col items-center mr-10">
+                    
+                        <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+                    
+                        <p class="text-gray-500">title</p>
+    
+                </div>
+                <!--Tab 3 and middle circle-->
+                <div class="flex flex-col items-center ml">
+                    
+                    <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+                
+                    <p class="text-gray-500">title</p>
+    
+                </div>
+                <!--Tab 3 and purple middle circle-->
+                <div class="flex flex-col items-center ml-10">
+                    
+                    <span class="w-6 h-6 transparent border-2 border-indigo-400 rounded-full mx-auto"></span>
+                
+                    <p class="text-indigo-400">title</p>
+    
+                </div>
+                 <!--Tab 3 and left circle-->
+                 <div class="flex flex-col items-center ml-10">
+                    
+                    <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+                
+                    <p class="text-gray-500">title</p>
+    
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+            <div class="bg-white"></div>
+            <div class="container mx-auto flex justify-center items-center w-96 mt-6 ">
+                </div>
+        
+                <!--Tab 4-->
+        <div class="bg-zinc-800 p-3">
+            <div class="container mx-auto flex justify-center items-center mt-4">
+                <!-- Tab 4 and right circle-->
+                <div class="flex flex-col items-center mr-10">
+                    
+                        <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+                    
+                        <p class="text-gray-500">title</p>
+    
+                </div>
+                <!--Tab 4 and middle circle-->
+                <div class="flex flex-col items-center ml">
+                    
+                    <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+                
+                    <p class="text-gray-500">title</p>
+    
+                </div>
+
+                <!--Tab 4 and middle circle-->
+                <div class="flex flex-col items-center ml-10">
+                    
+                    <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+                
+                    <p class="text-gray-500">title</p>
+    
+                </div>
+
+                 <!--Tab 4 and middle circle-->
+                 <div class="flex flex-col items-center ml-10">
+                    
+                    <span class="w-6 h-6 transparent border-2 border-gray-500 rounded-full mx-auto"></span>
+                
+                    <p class="text-gray-500">title</p>
+    
+                </div>  
+                <!--Tab 4 and purple left circle-->
+                <div class="flex flex-col items-center ml-10">
+                    
+                    <span class="w-6 h-6 transparent border-2 border-indigo-400 rounded-full mx-auto"></span>
+                
+                    <p class="text-indigo-400">title</p>
+    
+                </div>
+            </div>
+        </div>      
+
+               
+                
+   
+</body>
+</html>
