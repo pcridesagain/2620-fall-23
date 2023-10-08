@@ -1,59 +1,51 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
+<h1 class="text-2xl m-2">Svelte Component - Button Icons</h1>
+<h2 class="text-xl m-2 mb-4">Al Baker, DWDD 2620</h2>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+<button
+	class="rounded-full bg-primaryBlue block m-2 h-12 w-12 active:bg-darkBlue disabled:bg-darkGray group"
+>
+	<i class="fa-regular fa-circle text-lg text-white group-disabled:text-lightGray" />
+</button>
+<button
+	class="rounded-full bg-lighterBlue block m-2 h-12 w-12 active:bg-lightBlue disabled:bg-darkGray group"
+>
+	<i class="fa-regular fa-circle text-lg text-darkBlue group-disabled:text-lightGray" />
+</button>
+<button
+	class="rounded-full border-2 border-lightBlue block m-2 h-12 w-12 active:border-primaryBlue disabled:border-darkGray group"
+>
+	<i
+		class="fa-regular fa-circle text-lg text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"
+	/>
+</button>
+<button class="rounded-full block m-2 h-12 w-12 active:bg-lightBlue group">
+	<i
+		class="fa-regular fa-circle text-lg text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"
+	/>
+</button>
 
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+<button
+	class="rounded-full bg-primaryBlue block m-2 h-8 w-8 active:bg-darkBlue disabled:bg-darkGray group"
+>
+	<i class="fa-regular fa-circle fa-xs text-white group-disabled:text-lightGray" />
+</button>
+<button
+	class="rounded-full bg-lighterBlue block m-2 h-8 w-8 active:bg-lightBlue disabled:bg-darkGray group"
+>
+	<i class="fa-regular fa-circle fa-xs text-darkBlue group-disabled:text-lightGray" />
+</button>
+<button
+	class="rounded-full border-2 border-lightBlue block m-2 h-8 w-8 active:border-primaryBlue disabled:border-darkGray group"
+>
+	<i
+		class="fa-regular fa-circle fa-xs text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"
+	/>
+</button>
+<button class="rounded-full block m-2 h-8 w-8 active:bg-lightBlue group">
+	<i
+		class="fa-regular fa-circle fa-xs text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"
+	/>
+</button>
