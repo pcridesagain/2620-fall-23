@@ -1,0 +1,75 @@
+<main>
+	<form class="border border-blue-500 p-5 w-fit m-3 justify-center">
+		<p id="Label" class="text-center">Select Action</p>
+		<input type="radio" id="Download" name="Action" value="HTML" />
+		<label for="Download">Download</label><br />
+		<input type="radio" id="Savetofav" name="Action" value="Savetofav" />
+		<label for="Savetofav">Save to favorites</label><br />
+		<input type="radio" id="Comment" name="Action" value="Comment" />
+		<label for="Comment">Comment</label><br />
+		<input type="radio" id="Share" name="Action" value="Share" />
+		<label for="Share">Share</label><br />
+		<input
+		  type="radio"
+		  id="Reportthis"
+		  name="Action"
+		  value="Reportthis"
+		/>
+		<label for="Reportthis">Report this</label>
+		<p class="text-center">cancel</p>
+	  </form>
+	<div>
+	  <form
+		id="form2"
+		class="border border-blue-500 p-5 w-fit m-3 bg-slate-800"
+	  >
+		<p id="Label" class="text-center text-white">Select Action</p>
+		<input type="radio" id="Download" name="Action" value="HTML" />
+		<label for="Download" class="text-white">Download</label><br />
+		<input type="radio" id="Savetofav" name="Action" value="Savetofav" />
+		<label for="Savetofav" class="text-white">Save to favorites</label
+		><br />
+		<input type="radio" id="Comment" name="Action" value="Comment" />
+		<label for="Comment" class="text-white">Comment</label><br />
+		<input type="radio" id="Share" name="Action" value="Share" />
+		<label for="Share" class="text-white">Share</label><br />
+		<input
+		  type="radio"
+		  id="Reportthis"
+		  name="Action"
+		  value="Reportthis"
+		/>
+		<label for="Reportthis" class="text-white">Report this</label>
+		<p class="text-center text-white">cancel</p>
+	  </form>
+</main>
+
+<style>
+	#Label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding: 1em;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+}
+
+input[type="radio"] {
+  padding: 10px;
+  margin: 10px;
+}
+
+#form2 {
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+</style>
