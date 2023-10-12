@@ -111,6 +111,7 @@
 		color: white;
 		border-radius: 50%;
 	}
+    /*  */
 	.disabled {
 		pointer-events: none;
 	}
