@@ -6,7 +6,7 @@
     import Button from '$lib/AuthButtons.svelte';
 </script>
 
-<h1>Welcome to SvelteKit new app featuring AuthButtons</h1>
+<h1>Welcome to my new app with SvelteKit featuring AuthButtons</h1>
 
 <!-- SINGLE HTML BUTTON COMPONENT APPLE-->
 <Button name="Apple" type="apple" />
