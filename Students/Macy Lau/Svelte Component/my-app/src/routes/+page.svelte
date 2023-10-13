@@ -1,7 +1,3 @@
-<script>
-    
-</script>
-
 <div class="bg-black w-96 h-1/2 p-4">
     <div class="flex flex-col">
         <div class="mb-4">
