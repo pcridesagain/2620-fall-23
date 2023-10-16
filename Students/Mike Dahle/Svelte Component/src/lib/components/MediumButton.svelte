@@ -1,0 +1,2 @@
+<button class="rounded-full border-none bg-[#e7e7ff] text-[#6b4eff] text-center w-[117px] h-[48px]">Cancel</button>
+<button class="rounded-full border-none bg-[#6b4eff] text-[#ffffff] text-center w-[215px] h-[48px]">Confirm your action</button>
