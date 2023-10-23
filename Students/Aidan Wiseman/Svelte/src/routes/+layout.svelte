@@ -1,3 +1,18 @@
+<!-- <script lang="ts">
+    import'../app.css';
+</script>
+
+<div class="bg-gray-400 text-white py-4">
+    <nav>
+        <ul class="flex justify-center gap-3">
+            <li><a href="/">Home</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="p-5 border rounded my-5 mx-auto w-2/5">
+<slot />
+</div> -->
 <script>
 	let buttonText = "Button"; // Replace with your button text
   
