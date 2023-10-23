@@ -23,7 +23,7 @@
 	  ['#303437', '#303437', '#303437', '#303437'],
 	];
   
-	// Define an array of button colors for the second set of rows
+	// Define an array of button colors for the second set of rows yes 
 	let buttonColorsSet2 = [
 	  ['#C6C4FF', '#C6C4FF', '#C6C4FF', '#C6C4FF'],
 	  ['#9990FF', '#9990FF', '#9990FF', '#9990FF'],
