@@ -1,6 +1,8 @@
 <script>
-    import Checkboxes from '$lib/Checkboxes.svelte';
-    import RadioButtons from '$lib/RadioButtons.svelte';
+// @ts-nocheck
+
+    import MyCheckbox from '$lib/Checkboxes.svelte';
+    import MyRadioButton from '$lib/RadioButtons.svelte';
     
   </script>
   
@@ -11,8 +13,23 @@
 
   <main class="pl-4">
     <h1>Checkboxes</h1>
-    <Checkboxes />
-  
+    <div class="flex flex-row">
+        <MyCheckbox name="" type="regular"/>
+        <MyCheckbox name="" type="regular"/>
+    </div>
+    <div class="flex flex-row">
+        <MyCheckbox name="" type="regular"/>
+        <MyCheckbox name="" type="disabled"/>
+    </div>
+
     <h1>Radio Buttons</h1>
-    <RadioButtons />
+    <div class="flex flex-row">
+        <MyRadioButton name="" type="regular" />
+        <MyRadioButton name="" type="regular" />
+    </div>
+    <div class="flex flex-row">
+        <MyRadioButton name="" type="regular" />
+        <MyRadioButton name="" type="disabled" />
+    </div>
+    
   </main>

@@ -1,36 +1,19 @@
 <script>
-    let regularCheckboxes = [false, false];
-    let disabledCheckboxes = [false, true];
-    let firstCheckboxDisabled = true;
-  </script>
+	export let name = "Default";
+	export let type = "regular"; // regular, disabled
+	export let color = "indigo";
+</script>
 
-
-  <div class="grid grid-cols-2 gap-1 p-4 w-20 bg-black accent-indigo-500">
-    {#each regularCheckboxes as checkbox, i}
-      <label class="flex items-center">
-        <input
-          type="checkbox"
-          class="accent-indigo-500"
-          bind:checked={regularCheckboxes[i]}
-        />
-      </label>
-    {/each}
-
-    <label class="flex items-center">
-      <input
-        type="checkbox"
-        class="form-checkbox text-gray-500 cursor-not-allowed"
-        disabled={!firstCheckboxDisabled}
-        checked={!firstCheckboxDisabled}
-      />
-    </label>
-  
-    <label class="flex items-center">
-      <input
-        type="checkbox"
-        class="form-checkbox text-gray-500 cursor-not-allowed accent-gray-500 hover:none"
-        disabled={!firstCheckboxDisabled}
-        checked={firstCheckboxDisabled}
-      />
-    </label>
-  </div>
+<div class="bg-black">
+{#if type === "regular"}
+	<label class={`flex items-center accent-${color}-500 p-4`}>
+		<input type="checkbox" />
+		{name}
+	</label>
+{:else if type === "disabled"}
+	<label class={`flex items-center p-4`}>
+		<input type="checkbox" disabled checked />
+		{name}
+	</label>
+{/if}
+</div>
