@@ -8,7 +8,7 @@
 
 
 
-<Popup> </Popup>
+<Popup headingMessage='Remove Item?' bodyMessage='Are you sure you want to remove this item from your cart?'> </Popup>
 	
 	</main>
 
