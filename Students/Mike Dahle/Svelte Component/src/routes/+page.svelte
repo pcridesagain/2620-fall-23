@@ -6,7 +6,7 @@ import Button from "$lib/components/Button.svelte";
 <div class="flex flex-col p-4">
 
     <div class="mb-4">
-        <Button text="Cancel" color="cancel" size="lg" />
+        <Button size="lg" />
         <Button text="Send" color="active" size="lg" />
     </div>
 
@@ -16,7 +16,7 @@ import Button from "$lib/components/Button.svelte";
     </div>
 
     <div>
-        <Button text="Cancel" color="cancel" size="sm" />
+        <Button size="sm" />
         <Button text="Confirm your action" color="active" size="sm" />
     </div>
 
