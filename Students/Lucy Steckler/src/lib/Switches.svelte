@@ -1,10 +1,14 @@
 <script>
-    let isChecked1 = false;
-      let isChecked2 = false;
+    export let isChecked1 = false;
+     export let isChecked2 = false;
+
+    export let color = ""
   </script>
   <svelte:head>
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
   </svelte:head>
+
+  {#if color = "purple"}
   <label class="flex items-center cursor-pointer">
   
     <div class="relative">
@@ -13,7 +17,9 @@
       <div class="absolute w-28 h-28 transition-transform duration-300 ease-in-out bg-white rounded-full left-1 top-2" class:translate-x={isChecked1}></div>
     </div>
   </label>
-  
+  {/if}
+
+  {#if color = "gray"}
   <label class="flex items-center cursor-pointer mt-4">
   
     <div class="relative">
@@ -22,6 +28,7 @@
       <div class="absolute w-28 h-28 transition-transform duration-300 ease-in-out ink rounded-full left-1 top-2" class:translate-x={isChecked2}></div>
     </div>
   </label>
+  {/if}
   
   <!-- Custom Colors -->
   <style>
