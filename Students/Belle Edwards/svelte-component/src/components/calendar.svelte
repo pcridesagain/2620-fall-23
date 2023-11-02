@@ -1,15 +1,10 @@
 <script>
-	/**
-	 * @type {any}
-	 */
-	export let theme;
-	console.log(theme);
-
 	let selectedCell = '';
+	//condition ? exprIfTrue : exprIfFalse
 </script>
 
-<div id="calendar">
-	<table class={theme}>
+<div class="bg-white dark:bg-black">
+	<table class='border-2'>
 		<thead>
 			<th>S</th>
 			<th>M</th>
@@ -69,7 +64,7 @@
 	</table>
 </div>
 
-<style>
+<!-- <style>
 	table.light {
 		background-color: white;
 		border: solid;
@@ -115,4 +110,4 @@
 	.disabled {
 		pointer-events: none;
 	}
-</style>
+</style> -->
