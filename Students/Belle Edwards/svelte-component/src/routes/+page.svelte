@@ -11,7 +11,6 @@
 	</div>
 
 	<div>
-<Calendar />
+		<Calendar />
 	</div>
 </section>
-
