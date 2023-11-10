@@ -6,10 +6,9 @@ export default {
   component: Button,
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: { control: 'color' },
-    size: {
+    type: {
       control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
+      options: ['primary', 'secondary', 'outline', 'transparent']
     },
   },
 };
@@ -17,27 +16,24 @@ export default {
 // More on writing stories with args: https://storybook.js.org/docs/svelte/writing-stories/args
 export const Primary = {
   args: {
-    primary: true,
-    label: 'Button',
+    type: 'primary',
   },
 };
 
 export const Secondary = {
   args: {
-    label: 'Button',
+    type: 'secondary',
   },
 };
 
-export const Large = {
+export const Outline = {
   args: {
-    size: 'large',
-    label: 'Button',
+    type: 'outline',
   },
 };
 
-export const Small = {
+export const Transparent = {
   args: {
-    size: 'small',
-    label: 'Button',
+    type: 'transparent',
   },
 };

@@ -1,36 +1,67 @@
 <script>
-  import './button.css';
+  // primary, secondary, outline, transparent
+	// lg, sm
+  import "../app.postcss";
 
-  /**
-   * Is this the principal call to action on the page?
-   */
-  export let primary = false;
-
-  /**
-   * @type {string} What background color to use
-   */
-  export let backgroundColor = undefined;
-
-  /**
-   * @type {'small' | 'medium' | 'large'} How large should the button be?
-   */
-  export let size = 'medium';
-
-  /**
-   * @type {string} Button contents
-   */
-  export let label;
-
-  $: mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-
-  $: style = backgroundColor ? `background-color: ${backgroundColor}` : '';
+	export let type = 'primary';
 </script>
 
-<button
-  type="button"
-  class={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-  {style}
-  on:click
->
-  {label}
-</button>
+{#if type === 'primary'}
+	<button
+		class="rounded-full bg-primaryBlue block my-2 h-12 w-12 active:bg-darkBlue disabled:bg-darkGray group"
+	>
+		<i class="fa-regular fa-circle text-lg text-white group-disabled:text-lightGray" />
+	</button>
+	<button
+		class="rounded-full bg-primaryBlue block my-2 h-8 w-8 active:bg-darkBlue disabled:bg-darkGray group"
+	>
+		<i class="fa-regular fa-circle fa-xs text-white group-disabled:text-lightGray" />
+	</button>
+{/if}
+
+{#if type === 'secondary'}
+	<button
+		class="rounded-full bg-lighterBlue block my-2 h-12 w-12 active:bg-lightBlue disabled:bg-darkGray group"
+	>
+		<i class="fa-regular fa-circle text-lg text-darkBlue group-disabled:text-lightGray" />
+	</button>
+	<button
+		class="rounded-full bg-lighterBlue block my-2 h-8 w-8 active:bg-lightBlue disabled:bg-darkGray group"
+	>
+		<i class="fa-regular fa-circle fa-xs text-darkBlue group-disabled:text-lightGray" />
+	</button>
+{/if}
+
+{#if type === 'outline'}
+	<button
+		class="rounded-full border-2 border-lightBlue block my-2 h-12 w-12 active:border-primaryBlue disabled:border-darkGray group"
+	>
+		<i
+			class="fa-regular fa-circle text-lg text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"
+		/>
+	</button>
+	<button
+		class="rounded-full border-2 border-lightBlue block my-2 h-8 w-8 active:border-primaryBlue disabled:border-darkGray group"
+	>
+		<i
+			class="fa-regular fa-circle fa-xs text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"
+		/>
+	</button>
+{/if}
+
+{#if type === 'transparent'}
+	<button 
+		class="rounded-full block my-2 h-12 w-12 active:bg-lightBlue group"
+	>
+		<i
+			class="fa-regular fa-circle text-lg text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"
+		/>
+	</button>
+	<button 
+		class="rounded-full block my-2 h-8 w-8 active:bg-lightBlue group"
+	>
+		<i
+			class="fa-regular fa-circle fa-xs text-lightBlue group-active:text-primaryBlue group-disabled:text-darkGray"
+		/>
+	</button>
+{/if}
