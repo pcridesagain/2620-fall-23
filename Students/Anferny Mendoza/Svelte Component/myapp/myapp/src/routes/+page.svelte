@@ -10,7 +10,6 @@
     
     <script src="https://cdn.tailwindcss.com"></script>
 </svelte:head>
-
   <main class="pl-4">
     <h1>Checkboxes</h1>
     <div class="flex flex-row">
