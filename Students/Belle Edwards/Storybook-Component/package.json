@@ -11,7 +11,7 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
     "build-storybook": "storybook build",
-    "storybook": "start storybook"
+    "storybook": "storybook dev -p 6006"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.2",
