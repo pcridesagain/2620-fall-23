@@ -1,0 +1,21 @@
+.light {
+    background-color: #6C7072;
+}
+.purple {
+    background-color: #6B4EFF;
+}
+.none {
+    background-color: none;
+}
+.darker {
+    background-color: #202325;
+}
+.ink-border {
+    border-color: #303437;
+}
+.ink {
+    background-color: #303437;
+}
+.translate-x {
+transform: translateX(100px);
+}
