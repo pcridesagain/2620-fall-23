@@ -29,6 +29,7 @@
     "indigo": "border-indigo-500 text-indigo-500",
     "zinc": "border-zinc-700 text-zinc-700",
     // Add more custom border colors here
+    
   };
 
 </script>
