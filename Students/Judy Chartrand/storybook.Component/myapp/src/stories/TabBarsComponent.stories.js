@@ -1,18 +1,19 @@
-import TabBarsComponent from './TabBarComponent.svelte';
+import sections from './TabBarsComponent.svelte';
 
 export default {
     title: 'Example/TabBar',
-    component: TabBarsComponent,
+    component: sections,
     tags: ['autodocs'],
   };
 
-  export const Single = {
-    args: {
-      sections: '1+6',
-    },
-  };
+  export const buttons = {
+   
 
-  export const Double = {
+  }
+
+    
+
+  export const titleColors = {
     args: {
         
       section: '2',
