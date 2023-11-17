@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bars</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/71978fcef7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-black font-sans">
+    <form id="searchBars" class="p-1 text-white">
+      <fieldset
+        id="bar1"
+        class="bg-[#202325] flex items-center w-2 p-2 m-2 rounded-lg"
+      >
+        <a href="#"
+          ><i class="fa fa-light fa-magnifying-glass text-white p-2"></i
+        ></a>
+        <input
+          class="input-field bg-[#202325] text-lg text-left"
+          type="text"
+          placeholder="Search"
+        />
+        <a href="#"><i class="fa fa-light fa-microphone text-white"></i></a>
+      </fieldset>
+      <fieldset id="bar2" class="flex m-2">
+        <fieldset class="bg-[#202325] flex items-center w-2 p-2 rounded-lg">
+          <a href="#"
+            ><i class="fa fa-light fa-magnifying-glass text-white p-2"></i
+          ></a>
+          <input
+            class="input-field bg-[#202325] text-lg"
+            type="text"
+            placeholder="Search"
+          />
+        </fieldset>
+        <a href="#"><p class="p-2 text-gray-400 text-lg">Cancel</p></a>
+      </fieldset>
+      <fieldset id="bar3" class="flex m-2">
+        <fieldset class="bg-[#202325] flex items-center w-2 p-2 rounded-lg">
+          <a href="#"
+            ><i class="fa fa-light fa-magnifying-glass text-white p-2"></i
+          ></a>
+          <input
+            class="input-field bg-[#202325] text-lg"
+            type="text"
+            placeholder="Colorado|"
+          />
+          <a href="#"><i class="fa fa-light fa-x text-white"></i></a>
+        </fieldset>
+        <a href="#"><p class="p-2 text-gray-400 text-lg">Cancel</p></a>
+      </fieldset>
+    </form>
+  </body>
+</html>
