@@ -12,3 +12,5 @@ const preview = {
 };
 
 export default preview;
+
+import '../src/app.css'

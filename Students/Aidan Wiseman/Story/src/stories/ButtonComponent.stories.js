@@ -1,9 +1,8 @@
-import Button from "./Button.svelte";
+import Button from "./ButtonComponet.svelte";
 
 export default {
-    title: 'DWDD-Component',
+    title: 'Button Component',
     component: Button,
-    tags: ['autodocs'],
     argTypes: {
       backgroundColor: { 
         control: { type: 'select' },
