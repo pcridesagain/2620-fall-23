@@ -1,9 +1,9 @@
 // Button.stories.js
 
-import Button from './Button.svelte';
+import ProgressBar from './progressbars.svelte';
 
 export default {
-  component: Button,
+  component: ProgressBar,
 };
 
 /*
@@ -11,12 +11,12 @@ export default {
  * See https://storybook.js.org/docs/svelte/api/csf
  * to learn how to use render functions.
  */
- export const Primary = {
+export const Primary = {
   render: () => ({
-    Component: Button,
+    Component: ProgressBar,
     props: {
       primary: true,
-      label: 'Button',
+      label: 'ProgressBar',
     },
   }),
 };

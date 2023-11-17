@@ -1,36 +1,25 @@
 <script>
-  import './button.css';
-
-  /**
-   * Is this the principal call to action on the page?
-   */
-  export let primary = false;
-
-  /**
-   * @type {string} What background color to use
-   */
-  export let backgroundColor = undefined;
-
-  /**
-   * @type {'small' | 'medium' | 'large'} How large should the button be?
-   */
-  export let size = 'medium';
-
-  /**
-   * @type {string} Button contents
-   */
-  export let label;
-
-  $: mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-
-  $: style = backgroundColor ? `background-color: ${backgroundColor}` : '';
+  export let progress = 50; // Initial progress value (percentage)
 </script>
 
-<button
-  type="button"
-  class={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-  {style}
-  on:click
->
-  {label}
-</button>
+<style>
+  .progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .progress {
+    width: 10%;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s ease-in-out;
+  }
+</style>
+
+<div class="progress-bar">
+  <div class="progress"></div>
+</div>
+
