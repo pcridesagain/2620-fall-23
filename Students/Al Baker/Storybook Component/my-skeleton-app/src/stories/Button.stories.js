@@ -10,6 +10,9 @@ export default {
       control: { type: 'select' },
       options: ['primary', 'secondary', 'outline', 'transparent']
     },
+    isLarge: {
+      control: { type: 'boolean' },
+    },
   },
 };
 
@@ -17,23 +20,27 @@ export default {
 export const Primary = {
   args: {
     type: 'primary',
+    isLarge: true,
   },
 };
 
 export const Secondary = {
   args: {
     type: 'secondary',
+    isLarge: true,
   },
 };
 
 export const Outline = {
   args: {
     type: 'outline',
+    isLarge: true,
   },
 };
 
 export const Transparent = {
   args: {
     type: 'transparent',
+    isLarge: true,
   },
 };
