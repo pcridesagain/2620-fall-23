@@ -16,6 +16,7 @@
     "@storybook/addon-interactions": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",
     "@storybook/addon-mdx-gfm": "^7.5.3",
+    "@storybook/addon-styling-webpack": "^0.0.5",
     "@storybook/blocks": "^7.5.3",
     "@storybook/svelte": "^7.5.3",
     "@storybook/sveltekit": "^7.5.3",
@@ -28,6 +29,7 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.5.3",
     "svelte": "^4.0.5",
+    "tailwindcss": "^3.3.5",
     "vite": "^4.4.2"
   },
   "type": "module"
