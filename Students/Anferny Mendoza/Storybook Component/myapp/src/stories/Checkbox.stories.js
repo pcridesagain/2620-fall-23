@@ -11,16 +11,13 @@ export default {
     },
 };
 
-// Regular state story
-// @ts-ignore
+
 export const Regular = {
     args: {
         type: 'regular',
     },
 };
 
-// Disabled state story
-// @ts-ignore
 export const Disabled ={
     args: {
         type: 'disabled',
