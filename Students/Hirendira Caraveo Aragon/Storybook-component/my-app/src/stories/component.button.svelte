@@ -46,3 +46,8 @@
   {name}
  </button> 
 {/if}
+{#if type=="4"}
+ <button class={`rounded-full bg-${color}-90 font-bold border border-2 border-gray-700 text-gray-700 ${(size in sizes) ? sizes[size] : sizes["md"]}`}>
+  {name}
+ </button> 
+{/if}
