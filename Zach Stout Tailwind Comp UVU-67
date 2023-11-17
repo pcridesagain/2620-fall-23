@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Tailwind</title>
+  </head>
+  <body>
+    <div class="flex justify-center">
+      <div>
+        <form class="border border-blue-500 p-5 w-fit m-3 justify-center">
+          <p id="Label" class="text-center">Select Action</p>
+          <input type="radio" id="Download" name="Action" value="HTML" />
+          <label for="Download">Download</label><br />
+          <input type="radio" id="Savetofav" name="Action" value="Savetofav" />
+          <label for="Savetofav">Save to favorites</label><br />
+          <input type="radio" id="Comment" name="Action" value="Comment" />
+          <label for="Comment">Comment</label><br />
+          <input type="radio" id="Share" name="Action" value="Share" />
+          <label for="Share">Share</label><br />
+          <input
+            type="radio"
+            id="Reportthis"
+            name="Action"
+            value="Reportthis"
+          />
+          <label for="Reportthis">Report this</label>
+          <p class="text-center">cancel</p>
+        </form>
+      </div>
+      <div>
+        <form
+          id="form2"
+          class="border border-blue-500 p-5 w-fit m-3 bg-slate-800"
+        >
+          <p id="Label" class="text-center text-white">Select Action</p>
+          <input type="radio" id="Download" name="Action" value="HTML" />
+          <label for="Download" class="text-white">Download</label><br />
+          <input type="radio" id="Savetofav" name="Action" value="Savetofav" />
+          <label for="Savetofav" class="text-white">Save to favorites</label
+          ><br />
+          <input type="radio" id="Comment" name="Action" value="Comment" />
+          <label for="Comment" class="text-white">Comment</label><br />
+          <input type="radio" id="Share" name="Action" value="Share" />
+          <label for="Share" class="text-white">Share</label><br />
+          <input
+            type="radio"
+            id="Reportthis"
+            name="Action"
+            value="Reportthis"
+          />
+          <label for="Reportthis" class="text-white">Report this</label>
+          <p class="text-center text-white">cancel</p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
