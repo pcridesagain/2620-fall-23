@@ -7,23 +7,34 @@ export default {
   };
 
   export const buttons = {
+    args: {
+        
+      section: 'button',
+      
+    },
+  };
    
 
-  }
-
+  
     
 
   export const titleColors = {
     args: {
         
-      section: '2',
+      section: 'title',
+      color: ''
     },
   };
 
-  export const Triple = {
+  export const buttonColors = {
     args: {
-      section: '3'
+        
+      section: 'hover',
+      color: ''
     },
-  };
+
+  }
+
+  
   
   
