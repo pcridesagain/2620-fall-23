@@ -1,5 +1,6 @@
 <script lang="ts">
-	import './calendar.css';
+	import './page.css';
+	//import './calendar.css';
 	import { onMount } from 'svelte';
 
 	export let label: string;
@@ -7,7 +8,7 @@
 	export let textColor: string;
 
 	$: console.log(label, backgroundColor, textColor);
-	console.log(label, backgroundColor, textColor);
+	//console.log(label, backgroundColor, textColor);
 
 	const currentDate = new Date();
 	let year = currentDate.getFullYear();
@@ -42,22 +43,24 @@
 	});
 </script>
 
-<!-- class="max-w-sm w-full border bg-[{backgroundColor}] text-[{textColor}]" -->
-<section class=".storybook-section">
-	<h1>{label}</h1>
+<!-- class="max-w-sm w-full border bg-dark -->
+<section class="bg-black h-auto w-fit flex justify-center p-4 m-10">
+	<!-- <h1>{label}</h1> -->
 	<table>
-		<thead>
-			<tr>
+		<thead class="text-xs">
+			<tr class="text-sm text-lightGray text-center justify-center p-4">
 				{#each weekDays as day}
-					<th>{day}</th>
+					<th class="text-sm p-2">{day}</th>
 				{/each}
 			</tr>
 		</thead>
 		<tbody>
 			{#each weeks as week}
-				<tr>
+				<tr class="text-sm text-white text-center justify-center p-2">
 					{#each week as day}
-						<td>
+						<td
+							class="text-sm text-white text-center justify-center items-center hover:bg-indigo-100 hover:text-black rounded-full w-10 h-10"
+						>
 							{day}
 						</td>
 					{/each}
