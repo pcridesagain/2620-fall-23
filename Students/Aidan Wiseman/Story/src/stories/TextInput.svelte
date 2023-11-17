@@ -1,4 +1,5 @@
 <script lang="ts">
+  import '../app.css';
     export let name = "Default";
     export let type = "regular"; // regular, flat, disabled
     export let size = "sl"; // sm, md, lg
