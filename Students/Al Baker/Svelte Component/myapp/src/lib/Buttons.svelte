@@ -7,7 +7,7 @@
 	let index = 0;
 	if (size === 'lg') index = 1;
 	const sizes = ['h-8 w-8', 'h-12 w-12'];
-    const innerSizes = ['fa-xs', 'text-lg'];
+  	const innerSizes = ['fa-xs', 'text-lg'];
 </script>
 
 {#if type === 'primary'}
