@@ -61,3 +61,25 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+.test {
+	display: flex;
+	background-color: black;
+	color: white;
+	width: 50px;
+	height: 20px;
+	justify-content: center;
+	border-radius: 20px;
+	border: 1px solid gray;
+	gap: 10px;
+	position: relative;
+}
+
+
+
+p:nth-child(3) {
+	color: blue;
+}
+
+
+=======

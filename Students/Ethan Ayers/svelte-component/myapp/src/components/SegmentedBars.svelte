@@ -10,8 +10,6 @@
     function setActive(item) {
         selected = item;
     }
-
-    
 </script>
 
 <section>
