@@ -1,40 +1,38 @@
-<script lang="ts">
-	export let side = "right"; // left OR right OR none (for the plus)
-	export let size = "short"; // short OR long
-	export let style = "filledIn"; // filledIn OR outline
+<script lang="js">
+	export let side = "right" // left OR right OR none (for the plus)
+export let size = "short" // short OR long
+export let style = "filledIn" // filledIn OR outline
 
-    let sizeCode = "";
-    let styleCSS = "";
-    let constCSS = ""
+let sizeCode = ""
+let styleCSS = ""
+let constCSS = ""
 
 // long OR short & left OR right
-    
-    // SHORT
-    if (size === "short"){
-        constCSS = `font-bold py-2 px-4 rounded-full `
-    }
-    // LONG
-    else if (size === "long"){
-        if (side === "right"){
-            constCSS = `py-2 px-4 rounded-full flex items-center w-80 h-10 m-3 `
-        }
-        else if (side === "left"){
-            constCSS = `bg-[#31343b] text-white font-bold py-2 px-4 rounded-full flex items-center w-80 h-10 m-3`
-        }
-        else if (side === "none"){
-            sizeCode = `Chip`
-            constCSS = `py-2 px-4 rounded-full flex justify-center w-80 h-10 m-3`
-        }
-    }
+
+// SHORT
+if (size === "short") {
+  constCSS = `font-bold py-2 px-4 rounded-full `
+}
+// LONG
+else if (size === "long") {
+  if (side === "right") {
+    constCSS = `py-2 px-4 rounded-full flex items-center w-80 h-10 m-3 `
+  } else if (side === "left") {
+    constCSS = `bg-[#31343b] text-white font-bold py-2 px-4 rounded-full flex items-center w-80 h-10 m-3`
+  } else if (side === "none") {
+    sizeCode = `Chip`
+    constCSS = `py-2 px-4 rounded-full flex justify-center w-80 h-10 m-3`
+  }
+}
 // Styles - filledIn OR outline
-	if (style === "filledIn"){
-        styleCSS = "bg-[#31343b] text-white"
-    }
-    else if(style === "outline"){
-		styleCSS = "border border-[#31343b] bg-transparent text-white";
-	}
-    //let button = document.querySelector('button')
-    //button.innerHTML = sizeCode
+if (style === "filledIn") {
+  styleCSS = "bg-[#31343b] text-white"
+} else if (style === "outline") {
+  styleCSS = "border border-[#31343b] bg-transparent text-white"
+}
+//let button = document.querySelector('button')
+//button.innerHTML = sizeCode
+
 </script>
 
 <!-- SHORT -->

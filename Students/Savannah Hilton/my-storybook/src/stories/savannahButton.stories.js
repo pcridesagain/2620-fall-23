@@ -1,4 +1,3 @@
-import type { Meta, StoryObj } from '@storybook/svelte';
 import savannahButton from './savannahButton.svelte';
 
 // More on how to set up stories at: https://storybook.js.org/docs/svelte/writing-stories/introduction
@@ -20,10 +19,9 @@ const meta = {
 }; //satisfies Meta<Button>;
 
 export default meta;
-type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/svelte/writing-stories/args
-export const LongFilledIn: Story = {
+export const LongFilledIn = {
 	args: {
 		side: 'right',
 		size: 'long',
@@ -31,7 +29,7 @@ export const LongFilledIn: Story = {
 	}
 };
 
-export const LongOutline: Story = {
+export const LongOutline = {
 	args: {
 		side: 'right',
 		size: 'long',
@@ -39,7 +37,7 @@ export const LongOutline: Story = {
 	}
 };
 
-export const ShortFilledIn: Story = {
+export const ShortFilledIn = {
 	args: {
 		side: 'right',
 		size: 'short',
@@ -47,7 +45,7 @@ export const ShortFilledIn: Story = {
 	}
 };
 
-export const ShortOutline: Story = {
+export const ShortOutline = {
 	args: {
 		side: 'right',
 		size: 'short',
