@@ -1,0 +1,68 @@
+<script>
+	import MyButton from "./component.button.svelte";
+	</script>
+
+<svelte:head>
+<link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"/>
+</svelte:head>
+
+<!-- SINGLE HTML INPUT COMPONENT -->
+<!-- <MyInput/> -->
+
+<!-- SINGLE HTML BUTTON COMPONENT -->
+<MyButton name="Login" type="disabled" size="lg"/>
+<MyButton name="Login" type="disabled" size="lg"/>
+<MyButton name="Login" type="disabled" size="lg"/>
+<br>
+<MyButton name="Login" type="regular" size="lg"/>
+<MyButton name="Login" type="regular" size="lg"/>
+<MyButton name="Login" type="regular" size="lg"/>
+<br>
+<MyButton name="Login" type="flat" size="lg"/>
+<MyButton name="Login" type="flat" size="lg"/>
+<MyButton name="Login" type="flat" size="lg"/>
+<br>
+<br>
+
+<!--more button-->
+<MyButton name="Login" type="disabled" size="md"/>
+<MyButton name="Login" type="disabled" size="md"/>
+<MyButton name="Login" type="disabled" size="md"/>
+<br>
+<MyButton name="Login" type="regular" size="md"/>
+<MyButton name="Login" type="regular" size="md"/>
+<MyButton name="Login" type="regular" size="md"/>
+<br>
+<MyButton name="Login" type="flat" size="md"/>
+<MyButton name="Login" type="flat" size="md"/>
+<MyButton name="Login" type="flat" size="md"/>
+<br>
+<br>
+
+<!--more button-->
+<MyButton name="Login" type="1" size="sm"/>
+<MyButton name="Login" type="1" size="sm"/>
+<MyButton name="Login" type="1" size="sm"/>
+<br>
+<MyButton name="Login" type="2" size="sm"/>
+<MyButton name="Login" type="2" size="sm"/>
+<MyButton name="Login" type="2" size="sm"/>
+<br>
+<MyButton name="Login" type="3" size="sm"/>
+<MyButton name="Login" type="3" size="sm"/>
+<MyButton name="Login" type="3" size="sm"/>
+<br>
+<br>
+
+<!--more button-->
+<MyButton name="Login" type="1" size="xs"/>
+<MyButton name="Login" type="1" size="xs"/>
+<MyButton name="Login" type="1" size="xs"/>
+<br>
+<MyButton name="Login" type="2" size="xs"/>
+<MyButton name="Login" type="2" size="xs"/>
+<MyButton name="Login" type="2" size="xs"/>
+<br>
+<MyButton name="Login" type="3" size="xs"/>
+<MyButton name="Login" type="3" size="xs"/>
+<MyButton name="Login" type="3" size="xs"/>
